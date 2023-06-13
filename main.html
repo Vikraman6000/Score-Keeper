@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Score Keeper</h1>
+    <div class="team">
+        <div class="one">Team Red</div>
+        <div class="two">Team Blue</div> 
+        <div id="p1s" class="three">0</div>
+        <div id="p2s" class="four">0</div>
+        <div class="five"> <button id="p1b">Add Point</button></div>
+        <div class="six"><button id="p2b">Add Point</button></div>
+        
+    </div>
+    <div class="init">
+        <div class="box">
+            <h3>GameOver? <br>Leading Scorer Wins</h3>
+            <button id="end">Endgame</button>
+        </div>
+        <div class="box center">
+            <h3>Set Maximum Score </h3>
+            <input type="number" id="max" min="1" max="50">
+            <h5 id="errMsg"></h5>
+            <button id="start">Start</button>
+        </div>
+        <div class="box">
+            <h3>Rematch? <br>Reset the Scores </h3>
+            <div><button id="reset">Reset</button></div>
+        </div>
+    </div>
+    <h4 id="winMsg"></h4>
+<script src="main.js"></script>
+</body>
+</html>
