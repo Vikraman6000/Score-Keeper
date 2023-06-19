@@ -75,9 +75,11 @@ h1{
 }
 .five button{
     background-color: rgb(255, 66, 66);
+	transition: 500ms;
 }
 .six button{
-     background-color: rgb(66, 66, 254)
+     background-color: rgb(66, 66, 254);
+	transition: 500ms;
 }
 
 .init{
